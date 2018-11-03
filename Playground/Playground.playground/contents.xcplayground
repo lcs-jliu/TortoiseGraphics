@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='raw'>
+<playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
-        <page name='With a tortoise'/>
+        <page name='Starting code for Turtle Graphics'/>
+        <page name='Square example'/>
         <page name='With 2 tortoises'/>
+        <page name='Oct 16 HW Exercise Ore'/>
+        <page name='Relative positioning'/>
+        <page name='Repeated shapes'/>
+        <page name='Method lesson'/>
+        <page name='Draw my name'/>
     </pages>
 </playground>
