@@ -15,8 +15,18 @@ canvas.drawing { t in
     t.goto(-300, 200)
     t.penSize(5)
     
-    t.UppercaseJ()
-    t.LowercaseA()
+    //Draw my first name
+    t.uppercaseJ()
+    t.lowercaseA()
+    t.lowercaseS()
+    t.lowercaseO()
+    t.lowercaseN()
+    
+    //Draw my last name
+    t.uppercaseL()
+    t.lowercaseI()
+    t.lowercaseU()
+    
 
 }
 

@@ -18,9 +18,8 @@ public extension Tortoise {
         }
         self.penUp()
     }
-}
 
-    func UppercaseJ() {
+    func uppercaseJ() {
         //Uppercase J
         //NEW:Make turtle face to right like in GP Blocks
         self.setHeading(-40)
@@ -39,7 +38,7 @@ public extension Tortoise {
         self.curve(withSides: 350, withSize: 3, drawSides: 40)
     }
 
-    func LowercaseA() {
+    func lowercaseA() {
         //Lowercase a
         //turn direction
         self.right(170)
@@ -55,7 +54,7 @@ public extension Tortoise {
         self.curve(withSides: -350, withSize: 3, drawSides: 18)
     }
 
-    func LowercseS() {
+    func lowercaseS() {
         //Lowercase s
         self.left(100)
         //Moving up
@@ -78,7 +77,7 @@ public extension Tortoise {
         self.curve(withSides: -60, withSize: 5, drawSides: 15)
     }
 
-    func LowercaseO() {
+    func lowercaseO() {
         //Lowercase o
         //Turn around
         self.right(180)
@@ -98,7 +97,7 @@ public extension Tortoise {
         self.curve(withSides: -100, withSize: 1, drawSides: 40)
     }
 
-    func LowercaseN() {
+    func lowercaseN() {
         //Lowercase n
         //Starting tail
         self.left(30)
@@ -120,8 +119,7 @@ public extension Tortoise {
         self.curve(withSides: -50, withSize: 1, drawSides: 25)
     }
 
-
-    func UppercaseL() {
+    func uppercaseL() {
         //Uppercase L
         //Set location for the turtle
         self.penUp()
@@ -153,7 +151,7 @@ public extension Tortoise {
         self.curve(withSides: -200, withSize: 1, drawSides: 45)
     }
 
-    func LowercaseI() {
+    func lowercaseI() {
         //Lowercase i
         //Moving up
         self.curve(withSides: -600, withSize: 1, drawSides: 60)
@@ -167,9 +165,9 @@ public extension Tortoise {
         //Set location for the turtle
         self.penUp()
         self.setHeading(90)
-        self.back(20)
+        self.back(15)
         self.left(90)
-        self.forward(60)
+        self.forward(70)
         self.penDown()
         //Dot
         self.curve(withSides: 1, withSize: 12, drawSides: 1)
@@ -177,30 +175,35 @@ public extension Tortoise {
         self.curve(withSides: 1, withSize: 12, drawSides: 1)
     }
 
-    func LowercaseU() {
+    func lowercaseU() {
         //Lowercase u
         //Set location for the turtle
         self.penUp()
         self.setHeading(0)
-        self.back(20)
+        self.back(70)
         self.right(90)
-        self.forward(60)
+        self.forward(15)
         self.right(90)
         //Moving up
-        self.curve(withSides: -400, withSize: 2, drawSides: 23)
+        self.right(180)
+        self.curve(withSides: 300, withSize: 2, drawSides: 15)
         //Moving down
+        self.right(180)
         self.curve(withSides: -800, withSize: 1, drawSides: 45)
         //Turn around
-        self.curve(withSides: -70, withSize: 1, drawSides: 20)
-        self.curve(withSides: -150, withSize: 1, drawSides: 20)
-        self.left(5)
+        self.curve(withSides: -70, withSize: 1, drawSides: 23)
+        self.curve(withSides: -150, withSize: 1, drawSides: 23)
         //Moving up
-        self.curve(withSides: 800, withSize: 1, drawSides: 38)
+        self.curve(withSides: 1000, withSize: 1, drawSides: 38)
         self.right(180)
-        self.curve(withSides: -800, withSize: 1, drawSides: 38)
+        self.curve(withSides: -1000, withSize: 1, drawSides: 38)
         //Ending tail
         self.left(30)
-        self.curve(withSides: -200, withSize: 1, drawSides: 15)
+        self.curve(withSides: -1000, withSize: 1, drawSides: 18)
         self.curve(withSides: -40, withSize: 1, drawSides: 15)
-        self.penSize(1)
 
+        //Set turtle size
+        self.penSize(1)
+    }
+
+}
