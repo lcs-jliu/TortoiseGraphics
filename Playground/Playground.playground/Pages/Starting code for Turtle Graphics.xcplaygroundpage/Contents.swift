@@ -7,9 +7,11 @@ canvas.frameRate = 30
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
-canvas.drawing { turtle in
+canvas.drawing { t in
     
-    
+    for 1 ... 36 {
+        //Draw triangles
+    }
     
     
     

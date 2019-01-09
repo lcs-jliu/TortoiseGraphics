@@ -206,4 +206,28 @@ public extension Tortoise {
         self.penSize(1)
     }
 
+    func circle(scaleFactor scale: Double) {
+        self.penColor(.white)
+        self.penSize(2)
+        self.penDown()
+        self.curve(withSides: 30, withSize: 2 * scale, drawSides: 30)
+
+    }
+
+    func randomCircle() {
+        self.penUp()
+
+        let x = self.random(550) - 300
+        let y = self.random(550) - 300
+
+        self.goto(x, y)
+
+        let size = self.random(2)
+
+        self.circle(scaleFactor: size)
+
+        self.penDown()
+
+    }
+
 }
